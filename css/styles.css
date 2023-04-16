@@ -121,6 +121,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 24px 24px 40px 40px;
+  margin: 0 auto;
 }
 
 .mob-menu {

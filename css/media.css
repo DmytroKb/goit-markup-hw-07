@@ -28,6 +28,9 @@
   .container {
     max-width: 766px;
   }
+  .mob-menu {
+    display: none;
+  }
   /* Header ---------------- */
   .header-container {
     display: flex;
