@@ -66,72 +66,75 @@
         </button>
       </div>
       <!-- Mob menu -->
+
       <div class="mob-menu is-hidden" data-menu>
-        <div>
-          <button type="submit" class="mob-close-btn" data-menu-close>
-            <svg width="8" height="8" class="modal-close-icon">
-              <use href="./images/icons-close.svg#icon-close"></use>
-            </svg>
-          </button>
-          <ul class="mob-menu-list list">
-            <li class="mob-menu-item">
-              <a href="./index.html" class="mob-menu-link link current"
-                >Studio</a
-              >
-            </li>
-            <li class="mob-menu-item">
-              <a href="./portfolio.html" class="mob-menu-link link"
-                >Portfolio</a
-              >
-            </li>
-            <li class="mob-menu-item">
-              <a href="" class="mob-menu-link link">Contacts</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="mob-address-list list">
-            <li class="mob-address-item">
-              <a href="tel:+110001111111" class="mob-tel-item link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="mob-address-item">
-              <a href="mailto:info@devstudio.com" class="mob-mail-item link"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-          <ul class="mob-social-list list">
-            <li class="mob-social-items">
-              <a href="" class="mob-social-links">
-                <svg width="24" height="24" class="mob-social-icon">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-social-items">
-              <a href="" class="mob-social-links">
-                <svg width="24" height="24" class="mob-social-icon">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-social-items">
-              <a href="" class="mob-social-links">
-                <svg width="24" height="24" class="mob-social-icon">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-social-items">
-              <a href="" class="mob-social-links">
-                <svg width="24" height="24" class="mob-social-icon">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+        <div class="mob-menu-container">
+          <div>
+            <button type="submit" class="mob-close-btn" data-menu-close>
+              <svg width="8" height="8" class="modal-close-icon">
+                <use href="./images/icons-close.svg#icon-close"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a href="./index.html" class="mob-menu-link link current"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a href="./portfolio.html" class="mob-menu-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a href="" class="mob-menu-link link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="mob-address-list list">
+              <li class="mob-address-item">
+                <a href="tel:+110001111111" class="mob-tel-item link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a href="mailto:info@devstudio.com" class="mob-mail-item link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-social-list list">
+              <li class="mob-social-items">
+                <a href="" class="mob-social-links">
+                  <svg width="24" height="24" class="mob-social-icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-items">
+                <a href="" class="mob-social-links">
+                  <svg width="24" height="24" class="mob-social-icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-items">
+                <a href="" class="mob-social-links">
+                  <svg width="24" height="24" class="mob-social-icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-items">
+                <a href="" class="mob-social-links">
+                  <svg width="24" height="24" class="mob-social-icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -210,22 +213,28 @@
           <h2 class="third-section-title">What are we doing</h2>
           <ul class="list third-list">
             <li class="third-section-item">
-              <picture>
-                <source src="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x" />
-              </picture>
-              <img src="./images/img1.jpg" alt="analysis" width="360" />
+              <img
+                src="./images/img1.jpg"
+                alt="analysis"
+                width="360"
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+              />
             </li>
             <li class="third-section-item">
-              <picture>
-                <source src="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x" />
-              </picture>
-              <img src="./images/img2.jpg" alt="conversations" width="360" />
+              <img
+                src="./images/img2.jpg"
+                alt="conversations"
+                width="360"
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+              />
             </li>
             <li class="third-section-item">
-              <picture>
-                <source src="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x" />
-              </picture>
-              <img src="./images/img3.jpg" alt="recommendations" width="360" />
+              <img
+                src="./images/img3.jpg"
+                alt="recommendations"
+                width="360"
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+              />
             </li>
           </ul>
         </div>
@@ -255,13 +264,14 @@
                   "
                   media="(min-width: 480px)"
                 />
+                <img
+                  class="our-team-img"
+                  src="./images/mark.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                />
               </picture>
-              <img
-                class="our-team-img"
-                src="./images/mark.jpg"
-                alt="Mark Guerrero"
-                width="264"
-              />
+
               <div class="our-container">
                 <h3 class="title-name">Mark Guerrero</h3>
                 <p class="forth-section-text">Product Designer</p>
@@ -318,13 +328,14 @@
                   "
                   media="(min-width: 480px)"
                 />
+                <img
+                  class="our-team-img"
+                  src="./images/tom.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                />
               </picture>
-              <img
-                class="our-team-img"
-                src="./images/tom.jpg"
-                alt="Tom Ford"
-                width="264"
-              />
+
               <div class="our-container">
                 <h3 class="title-name">Tom Ford</h3>
                 <p class="forth-section-text">Frontend Developer</p>
@@ -380,13 +391,14 @@
                   "
                   media="(min-width: 480px)"
                 />
+                <img
+                  class="our-team-img"
+                  src="./images/camila.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                />
               </picture>
-              <img
-                class="our-team-img"
-                src="./images/camila.jpg"
-                alt="Camila Garcia"
-                width="264"
-              />
+
               <div class="our-container">
                 <h3 class="title-name">Camila Garcia</h3>
                 <p class="forth-section-text">Marketing</p>
@@ -442,13 +454,14 @@
                   "
                   media="(min-width: 480px)"
                 />
+                <img
+                  class="our-team-img"
+                  src="./images/daniel.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                />
               </picture>
-              <img
-                class="our-team-img"
-                src="./images/daniel.jpg"
-                alt="Daniel Wilson"
-                width="264"
-              />
+
               <div class="our-container">
                 <h3 class="title-name">Daniel Wilson</h3>
                 <p class="forth-section-text">UI Designer</p>
@@ -673,9 +686,11 @@
               class="modal-check-box visually-hidden"
             />
             <label for="privacy-policy" class="checkbox-text"
-              >I accept the terms and conditions of the&nbsp;
-              <a class="privacy-policy-wrap" href="./index.html">
-                Privacy Policy</a
+              ><span
+                >I accept the terms and conditions of the&nbsp;
+                <a class="privacy-policy-wrap" href="./index.html">
+                  Privacy Policy</a
+                ></span
               ></label
             >
           </div>
