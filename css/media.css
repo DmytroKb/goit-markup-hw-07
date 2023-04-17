@@ -96,8 +96,8 @@
   /* First Section --------- */
   .first-section {
     background-image: var(--first-gradient), url(../images/people-office.jpg);
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -194,6 +194,10 @@
   }
 
   /* First Section --------- */
+  .first-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
 
   .first-section-title {
     font-size: 56px;
